@@ -1,0 +1,69 @@
+
+
+.navbar-brand::first-letter {
+    color: greenyellow;
+}
+
+section.content {
+    margin-top: 8rem;
+}
+
+.section-card {
+    margin-top: 8rem;
+}
+
+
+.card {
+    border: none;
+    margin-left: 4.5rem;
+}
+
+.card-img-top {
+    width: 5rem;
+}
+
+.font-ui {
+    font-size: 2.5rem;
+}
+
+section.phone {
+    margin-top: 10rem;
+}
+
+li.list-ui {
+    margin: 0;
+    padding: 0;
+    list-style-type: "> ";
+}
+
+div.img-phone {
+    width: 380px;
+    margin-left: 3rem;
+}
+
+img.phone {
+    width: 100%;
+    height: 100%;
+    
+}
+
+section.footer {
+    background-color: black;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* desktop */
+@media only screen and (min-width: 992px)  {
+    .text-phone {
+        margin-top: -22rem; 
+    }
+    
+}
